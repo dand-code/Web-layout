@@ -36,6 +36,9 @@
   font-weight: bold;
   padding-bottom: 5px;
   margin: 25px auto;
+  &:hover{
+    background-color: $color-bg-2;
+  }
 }
 
 @media all and (min-width:$screen-sm){
