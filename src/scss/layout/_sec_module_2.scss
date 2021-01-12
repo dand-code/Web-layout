@@ -1,6 +1,33 @@
-.module__2{
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    row-gap: 10px;
-    padding: 30px 15px 45px;
+.module__2 {
+  background-color: $color-bg-1;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+  padding: 30px 15px 60px;
+  text-align: center;
+}
+.article {
+  width: 184px;
+  margin: 0 auto 30px;
+}
+.article__title {
+  font-family: $font-second;
+}
+.module__1--text {
+  font-weight: normal;
+}
+
+.btn__2 {
+  width: 184px;
+  height: 45px;
+  border-radius: 25.5px;
+  background-color: $color-btn;
+  color: $color-white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.25;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin: 25px auto;
 }
