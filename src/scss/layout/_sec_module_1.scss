@@ -1,0 +1,50 @@
+.module__1{
+    width: 320px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 15px 45px;
+
+    &--theme{
+        color: $color-bg-1;
+        font-family: 14px;
+    }
+    &--title{
+        font-family: $font-second; 
+    }
+    &--text{
+        line-height: 1.67;
+    }
+    .btn{
+        width: 76px;
+        height: 45px;
+        border-radius: 25.5px;
+        border: 2px solid $color-btn;
+        color: $color-btn;
+        text-align: center;
+        text-decoration: none;
+        line-height: 2.25;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        
+    }
+}
+
+
+
+
+
+/*
+<section class="module_1">
+<span class="module_1-theme">Insonia tips</span>
+<h2 class="module_1-title">Looking through a window</h2>
+<p>
+  Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+  luctus ex diam nec lectur. Vivamus semper sodales rutrum.
+</p>
+<a class="btn" href="">Go</a>
+</section>
+
+*/
