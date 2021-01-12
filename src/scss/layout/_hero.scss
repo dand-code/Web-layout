@@ -6,7 +6,8 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-around;
+    padding-top:340px;
     text-align: center;
     color: $color-white;
   
@@ -16,13 +17,13 @@
       font-weight: bold;
       line-height: 1.31;
       text-transform: uppercase;
+      margin-bottom: 3px;
     }
     &__title--main--span{
       display: block;
     }
     &__title--second{
       font-size: 16px;
-      font-weight: normal;
     }
     &__btn--link{
       width: 45px;
