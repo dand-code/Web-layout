@@ -42,3 +42,10 @@
     order: 3;
   }
 }
+
+@media all and(min-width:$screen-lg){
+  .footer{
+    padding: 30px 100px 45px;
+  }
+
+}
