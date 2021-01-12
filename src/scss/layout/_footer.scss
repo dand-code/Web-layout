@@ -26,4 +26,19 @@
   }
 }
 
-
+@media all and(min-width:$screen-sm){
+  .footer{
+    flex-direction: row;
+    text-align: left;
+    height: 240px;
+  }
+  .order-1{
+    order: 1;
+  }
+  .order-2{
+    order: 2;
+  }
+  .order-3{
+    order: 3;
+  }
+}
