@@ -1,0 +1,29 @@
+.footer {
+  background-color: $color-bg-2;
+  height: 465px;
+  padding: 30px 15px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  &__nav{
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    &--link{
+      color: $color-white;
+      text-decoration: none;
+      line-height: 1.88;
+    }
+  }
+  &__copy{
+    display: block;
+    color: $color-white;
+    font-size: 14px;
+  }
+  .fa-heart{
+    color: $color-btn;
+  }
+}
+
+
