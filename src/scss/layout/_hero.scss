@@ -36,6 +36,13 @@
   }
 }
 
+.bottom-icon{
+  transition: all 1s;
+}
+.bottom-icon:hover{
+  transform: scale(1.5);
+}
+
 @media all and (min-width: $screen-sm){
   .hero{
     padding-top: 300px;

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: $font-main;
   font-size: $text-size;
