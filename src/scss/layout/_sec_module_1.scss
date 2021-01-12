@@ -1,42 +1,56 @@
-.module{
-    height: 376px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 30px 15px 45px;
+.module {
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 15px 45px;
 
-    &__theme{
-        color: $color-bg-1;
-        font-family: 14px;
-        
-    }
-    &__title{
-        font-family: $font-second; 
-        font-size: 24px;        
-    }
-    &__text{
-        line-height: 1.67;
-    }
-    .btn{
-        width: 76px;
-        height: 45px;
-        border-radius: 25.5px;
-        border: 2px solid $color-btn;
-        color: $color-btn;
-        text-align: center;
-        text-decoration: none;
-        line-height: 2.25;
-        font-size: 20px;
-        font-weight: bold;
-        padding-bottom: 5px;
-        margin-top: 25px;
-    }
+  &__theme {
+    color: $color-bg-1;
+    font-family: 14px;
+  }
+  &__title {
+    font-family: $font-second;
+    font-size: 24px;
+  }
+  &__text {
+    line-height: 1.67;
+  }
+  .btn {
+    width: 76px;
+    height: 45px;
+    border-radius: 25.5px;
+    border: 2px solid $color-btn;
+    color: $color-btn;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.25;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 25px;
+  }
 }
 
-
-@media all and (min-width: $screen-sm){
-   .module{
+@media all and (min-width: $screen-sm) {
+  .module {
     width: 690px;
     padding: 30px 39px 60px;
-   }
   }
+}
+
+@media all and (min-width: $screen-lg) {
+  .module {
+    width: 730px;
+    margin: 0 auto;
+  }
+  .module__theme{
+      font-size: 16px;
+  }
+  .module__title{
+      font-size: 32px;
+  }
+  .module__text{
+      font-size:20px;
+  }
+}
