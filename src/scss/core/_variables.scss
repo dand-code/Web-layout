@@ -1,6 +1,17 @@
+//Typograph
+$text-size: 18px;
+
 // fonts
 $font-main: 'Roboto', sans-serif;
+$font-second:'Roboto Slab', serif;
 
 // colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+$color-header-nav: #0271bc;
+$color-btn: #f26002;
+$color-white: #ffffff;
+$color-bg-1: #8ccbea;
+$color-bg-2: #304268;
+
+//media queries
+$screen-sm: 768px;
+$screen-lg: 1200px;
