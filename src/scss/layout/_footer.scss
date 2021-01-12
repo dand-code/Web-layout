@@ -25,6 +25,19 @@
     color: $color-btn;
   }
 }
+.icon__arrow{
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50px;
+  position:relative;
+  top: -50px;
+  left: 41.5%;
+}
+
+.icon__arrow--icon{
+  padding: 12px;
+}
 
 @media all and(min-width:$screen-sm){
   .footer{
