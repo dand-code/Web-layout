@@ -12,6 +12,7 @@
     }
     &--title{
         font-family: $font-second; 
+        font-size: 24px;
     }
     &--text{
         line-height: 1.67;
@@ -28,23 +29,6 @@
         font-size: 20px;
         font-weight: bold;
         padding-bottom: 5px;
-        
+        margin-top: 25px;
     }
 }
-
-
-
-
-
-/*
-<section class="module_1">
-<span class="module_1-theme">Insonia tips</span>
-<h2 class="module_1-title">Looking through a window</h2>
-<p>
-  Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-  luctus ex diam nec lectur. Vivamus semper sodales rutrum.
-</p>
-<a class="btn" href="">Go</a>
-</section>
-
-*/
