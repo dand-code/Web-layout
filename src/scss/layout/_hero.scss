@@ -1,0 +1,37 @@
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/cover.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    color: $color-white;
+  
+    &__title--main{
+      font-family: $font-second;
+      font-size: 42px;
+      font-weight: bold;
+      line-height: 1.31;
+      text-transform: uppercase;
+    }
+    &__title--main--span{
+      display: block;
+    }
+    &__title--second{
+      font-size: 16px;
+      font-weight: normal;
+    }
+    &__btn--link{
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+      background-color: white;
+      margin: 0 auto;
+    }
+      &__btn--icon{
+        margin:17px auto;
+      }
+  }
