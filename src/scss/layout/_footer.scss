@@ -14,6 +14,9 @@
       color: $color-white;
       text-decoration: none;
       line-height: 1.88;
+      &:hover {
+        color: $color-btn;
+      }
     }
   }
   &__copy {
@@ -23,6 +26,15 @@
   }
   .fa-heart {
     color: $color-btn;
+    animation: heart 1.5s ease-in-out infinite alternate;
+  }
+  @keyframes heart {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.25);
+    }
   }
 }
 
