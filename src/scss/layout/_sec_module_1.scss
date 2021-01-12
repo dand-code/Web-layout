@@ -9,10 +9,13 @@
     &--theme{
         color: $color-bg-1;
         font-family: 14px;
+        
     }
     &--title{
         font-family: $font-second; 
         font-size: 24px;
+       color: pink;
+        
     }
     &--text{
         line-height: 1.67;

@@ -6,15 +6,21 @@
   padding: 30px 15px 60px;
   text-align: center;
 }
+.item_grid_1{
+  height: 10px;
+}
 .article {
   width: 184px;
-  margin: 0 auto 30px;
+  margin: 0 auto;
 }
+
 .article__title {
   font-family: $font-second;
+  line-height: 1.67;
 }
-.module__1--text {
+.module__text {
   font-weight: normal;
+  
 }
 
 .btn__2 {
