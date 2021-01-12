@@ -6,9 +6,7 @@
   padding: 30px 15px 60px;
   text-align: center;
 }
-.item_grid_1{
-  height: 10px;
-}
+
 .article {
   width: 184px;
   margin: 0 auto;
@@ -18,9 +16,8 @@
   font-family: $font-second;
   line-height: 1.67;
 }
-.module__text {
+.article__text {
   font-weight: normal;
-  
 }
 
 .btn__2 {
@@ -36,4 +33,22 @@
   font-weight: bold;
   padding-bottom: 5px;
   margin: 25px auto;
+}
+
+@media all and (min-width:$screen-sm){
+  .module__2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 30px 15px 60px;
+  }
+  .grid__item-1{
+    grid-column: 1 / 4;
+    padding-top: 30px;
+  }
+  
+  .btn__2{
+    grid-column: 1 / 4;
+  }
+  
 }
