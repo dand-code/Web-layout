@@ -53,18 +53,10 @@
   .order-3 {
     order: 3;
   }
-  .btn__arrow {
-    bottom: -800px;
-    left: 46vw;
-  }
 }
 
 @media all and(min-width:$screen-lg) {
   .footer {
     padding: 50px 370px 45px;
-  }
-  .btn__arrow {
-    bottom: -820px;
-    left: 48vw;
   }
 }

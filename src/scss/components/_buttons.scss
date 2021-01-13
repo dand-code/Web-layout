@@ -63,10 +63,23 @@
 
 // Footer
 .btn__arrow {
-  bottom: -1010px;
-  left: 45vw;
-  position: absolute;
-}
-.icon__arrow--icon {
+  left: 30%;
+  position: relative;
+  bottom: -15px;
+  left: 48%;
+  right: 52%;
   padding: 12px;
+}
+
+@media all and(min-width:$screen-sm){
+  .btn__arrow {
+    bottom: -36px;
+  }
+}
+
+@media all and(min-width:$screen-lg){
+  .btn__arrow {
+    bottom: -15px;
+    
+  }
 }

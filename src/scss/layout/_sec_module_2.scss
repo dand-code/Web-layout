@@ -1,10 +1,14 @@
 .module__2 {
   background-color: $color-bg-1;
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  padding: 10px 15px 35px;
-  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  &-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    padding-top: 40px;
+  }
   & .module__title {
     padding-top: 35px;
   }
@@ -26,23 +30,18 @@
 }
 
 @media all and (min-width: $screen-sm) {
-  .module__2 {
+  .module__2{
+    height: 397px;
+    height: 397px;
+  }
+  .module__2-grid {
     column-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 397px;
-    padding: 50px 15px 50px;
+    padding: 50px 15px 20px;
     & .module__title {
       padding-top: 5px;
     }
-  }
-  .grid__item-1 {
-    grid-column: 1 / 4;
-    padding-top: 30px;
-  }
-  .btn__2 {
-    grid-column: 1 / 4;
-  }
+  } 
 }
 
 @media all and (min-width: $screen-lg) {
