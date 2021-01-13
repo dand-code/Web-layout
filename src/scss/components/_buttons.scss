@@ -12,7 +12,7 @@
   text-decoration: none;
   line-height: 2.25;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 5px;
 }
 
@@ -40,7 +40,6 @@
   }
 }
 
-
 // Common style buttons icons (Hero and Footer)
 .btn__icon {
   width: 45px;
@@ -64,7 +63,7 @@
 // Footer
 .btn__arrow {
   position: absolute;
-  bottom: -1060px;
+  bottom: -1010px;
   left: 45vw;
 }
 .icon__arrow--icon {

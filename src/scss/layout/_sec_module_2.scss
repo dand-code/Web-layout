@@ -3,7 +3,7 @@
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   row-gap: 10px;
-  padding: 10px 15px 60px;
+  padding: 10px 15px 35px;
   text-align: center;
   & .module__title{
     padding-top: 35px;
@@ -11,7 +11,7 @@
   & .article {
     width: 184px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     &__title {
       font-family: $font-second;
       font-size: 18px;
@@ -30,8 +30,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     column-gap: 20px;
-    padding: 30px 15px 60px;
+    padding: 50px 15px 50px;
     height: 397px;
+    & .module__title{
+      padding-top: 5px;
+    }
   }
   .grid__item-1 {
     grid-column: 1 / 4;
