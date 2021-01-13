@@ -3,11 +3,15 @@
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   row-gap: 10px;
-  padding: 30px 15px 60px;
+  padding: 10px 15px 60px;
   text-align: center;
+  & .module__title{
+    padding-top: 35px;
+  }
   & .article {
     width: 184px;
     margin: 0 auto;
+    padding-bottom: 20px;
     &__title {
       font-family: $font-second;
       font-size: 18px;

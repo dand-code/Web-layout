@@ -2,7 +2,7 @@
   height: 376px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 30px 15px 45px;
 
   &__theme {
@@ -13,7 +13,7 @@
     font-family: $font-second;
     font-size: 24px;
     text-transform: capitalize;
-    padding-top: 50px;
+    padding-top: 5px;
   }
   &__text {
     line-height: 1.67;
