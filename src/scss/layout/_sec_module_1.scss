@@ -19,33 +19,14 @@
     line-height: 1.67;
     font-weight: 100;
   }
-  .btn {
-    width: 76px;
-    height: 45px;
-    border-radius: 25.5px;
-    border: 2px solid $color-btn;
-    color: $color-btn;
-    text-align: center;
-    text-decoration: none;
-    line-height: 2.25;
-    font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    margin-top: 25px;
-    &:hover{
-      color: $color-bg-2;
-      border-color: $color-bg-2;
-    }
-  }
 }
-
 
 @media all and (min-width: $screen-sm) {
   .module {
     width: 690px;
     padding: 30px 39px 60px;
   }
-  .module__title{
+  .module__title {
     font-size: 26px;
   }
 }
@@ -55,13 +36,13 @@
     width: 730px;
     margin: 0 auto;
   }
-  .module__theme{
-      font-size: 16px;
+  .module__theme {
+    font-size: 16px;
   }
-  .module__title{
-      font-size: 32px;
+  .module__title {
+    font-size: 32px;
   }
-  .module__text{
-      font-size:20px;
+  .module__text {
+    font-size: 20px;
   }
 }

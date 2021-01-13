@@ -1,4 +1,23 @@
 
+// Section Module 1
+.btn {
+    width: 76px;
+    height: 45px;
+    border-radius: 25.5px;
+    border: 2px solid $color-btn;
+    color: $color-btn;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.25;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    &:hover{
+      color: $color-bg-2;
+      border-color: $color-bg-2;
+    }
+
 
 //Section Module 2
 .btn__2 {
