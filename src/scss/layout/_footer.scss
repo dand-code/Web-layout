@@ -23,32 +23,19 @@
     display: block;
     color: $color-white;
     font-size: 14px;
-  }
-  .fa-heart {
-    color: $color-btn;
-    animation: heart 1.5s ease-in-out infinite alternate;
-  }
-  @keyframes heart {
-    0% {
-      transform: scale(1);
+    & .fa-heart {
+      color: $color-btn;
+      animation: heart 1.5s ease-in-out infinite alternate;
+      @keyframes heart {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.25);
+        }
+      }
     }
-    100% {
-      transform: scale(1.25);
-    }
   }
-}
-
-.btn__arrow {
-  width: 45px;
-  height: 45px;
-  background-color: white;
-  border-radius: 50px;
-  position: absolute;
-  bottom: -1000px;
-  left: 45vw;
-}
-.icon__arrow--icon {
-  padding: 12px;
 }
 
 @media all and(min-width:$screen-sm) {
