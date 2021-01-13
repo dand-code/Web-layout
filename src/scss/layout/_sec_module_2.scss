@@ -5,7 +5,7 @@
   padding: 10px 15px 35px;
   row-gap: 10px;
   text-align: center;
-  & .module__title{
+  & .module__title {
     padding-top: 35px;
   }
   & .article {
@@ -32,7 +32,7 @@
     grid-template-rows: repeat(3, 1fr);
     height: 397px;
     padding: 50px 15px 50px;
-    & .module__title{
+    & .module__title {
       padding-top: 5px;
     }
   }
