@@ -1,16 +1,26 @@
-// Section Module 1
+//Header - Menu
+.header__menu--btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+// Common btn class (Module 1 and 2)
 .btn {
-  width: 76px;
   height: 45px;
   border-radius: 25.5px;
-  border: 2px solid $color-btn;
-  color: $color-btn;
   text-align: center;
   text-decoration: none;
   line-height: 2.25;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 5px;
+}
+
+// Section Module 1
+.btn__1 {
+  width: 76px;
+  border: 2px solid $color-btn;
+  color: $color-btn;
   margin-top: 25px;
   &:hover {
     color: $color-bg-2;
@@ -21,29 +31,38 @@
 //Section Module 2
 .btn__2 {
   width: 184px;
-  height: 45px;
   border-radius: 25.5px;
   background-color: $color-btn;
   color: $color-white;
-  text-align: center;
-  text-decoration: none;
-  line-height: 2.25;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 5px;
   margin: 25px auto;
   &:hover {
     background-color: $color-bg-2;
   }
 }
 
-// Footer
 
-.btn__arrow {
+// Common style buttons icons (Hero and Footer)
+.btn__icon {
   width: 45px;
   height: 45px;
-  background-color: white;
   border-radius: 50px;
+  background-color: white;
+  transition: all 1s;
+  &:hover{
+    transform: scale(1.5);
+  }
+}
+
+// Hero 
+.hero__btn--link {
+  margin: 0 auto;
+}
+.hero__btn--icon {
+  margin: 17px auto;
+}
+
+// Footer
+.btn__arrow {
   position: absolute;
   bottom: -1000px;
   left: 45vw;

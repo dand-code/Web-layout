@@ -24,23 +24,6 @@
   &__title--second {
     font-size: 16px;
   }
-  &__btn--link {
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    background-color: white;
-    margin: 0 auto;
-  }
-  &__btn--icon {
-    margin: 17px auto;
-  }
-}
-
-.bottom-icon{
-  transition: all 1s;
-}
-.bottom-icon:hover{
-  transform: scale(1.5);
 }
 
 @media all and (min-width: $screen-sm){
