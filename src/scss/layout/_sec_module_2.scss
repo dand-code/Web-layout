@@ -2,16 +2,16 @@
   background-color: $color-bg-1;
   display: grid;
   grid-template-rows: repeat(5, 1fr);
-  row-gap: 10px;
   padding: 10px 15px 35px;
+  row-gap: 10px;
   text-align: center;
   & .module__title{
     padding-top: 35px;
   }
   & .article {
-    width: 184px;
-    margin: 0 auto;
     padding-bottom: 15px;
+    margin: 0 auto;
+    width: 184px;
     &__title {
       font-family: $font-second;
       font-size: 18px;
@@ -19,19 +19,19 @@
       text-transform: capitalize;
     }
     &__text {
-      line-height: 1.67;
       font-weight: 100;
+      line-height: 1.67;
     }
   }
 }
 
 @media all and (min-width: $screen-sm) {
   .module__2 {
+    column-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 20px;
-    padding: 50px 15px 50px;
     height: 397px;
+    padding: 50px 15px 50px;
     & .module__title{
       padding-top: 5px;
     }
@@ -48,12 +48,12 @@
 @media all and (min-width: $screen-lg) {
   .module__2 {
     column-gap: 5px;
-    padding: 30px 100px 60px;
     height: 427px;
+    padding: 30px 100px 60px;
   }
   .article {
-    width: 350px;
     line-height: 1.5;
+    width: 350px;
   }
   .article__title {
     font-size: 32px;

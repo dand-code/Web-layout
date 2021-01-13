@@ -1,14 +1,11 @@
-.header{
+.header {
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
   z-index: 100;
-  &__menu{
-    width: 44px;
-    height:44px;
+  &__menu {
     background-color: $color-header-nav;
+    height: 44px;
+    width: 44px;
   }
 }
-
-
-

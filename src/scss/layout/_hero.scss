@@ -1,22 +1,21 @@
 .hero {
-  width: 100vw;
-  height: 100vh;
   background: url("../images/cover.jpg") center no-repeat;
   background-size: cover;
+  color: $color-white;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: flex-end;
   padding-top: 340px;
   text-align: center;
-  color: $color-white;
-
+  width: 100vw;
   &__title--main {
     font-family: $font-second;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.31;
-    text-transform: uppercase;
     padding-bottom: 20px;
+    text-transform: uppercase;
   }
   &__title--main--span {
     display: block;
@@ -27,20 +26,19 @@
   }
 }
 
-@media all and (min-width: $screen-sm){
-  .hero{
+@media all and (min-width: $screen-sm) {
+  .hero {
     padding-top: 300px;
   }
-  .hero__title--main{
+  .hero__title--main {
     font-size: 80px;
   }
-  .hero__title--second{
+  .hero__title--second {
     font-size: 24px;
   }
 }
-@media all and (min-width: $screen-lg){
-  .hero__title--main{
-    font-size:100px;
+@media all and (min-width: $screen-lg) {
+  .hero__title--main {
+    font-size: 100px;
   }
 }
-
