@@ -5,44 +5,23 @@
   row-gap: 10px;
   padding: 30px 15px 60px;
   text-align: center;
-}
-
-.article {
-  width: 184px;
-  margin: 0 auto;
-}
-
-.article__title {
-  font-family: $font-second;
-  font-size: 18px;
-  line-height: 1.67;
-  text-transform: capitalize;
-}
-.article__text {
-  line-height: 1.67;
-  font-weight: 100;
-
-}
-
-.btn__2 {
-  width: 184px;
-  height: 45px;
-  border-radius: 25.5px;
-  background-color: $color-btn;
-  color: $color-white;
-  text-align: center;
-  text-decoration: none;
-  line-height: 2.25;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 5px;
-  margin: 25px auto;
-  &:hover{
-    background-color: $color-bg-2;
+  & .article {
+    width: 184px;
+    margin: 0 auto;
+    &__title {
+      font-family: $font-second;
+      font-size: 18px;
+      line-height: 1.67;
+      text-transform: capitalize;
+    }
+    &__text {
+      line-height: 1.67;
+      font-weight: 100;
+    }
   }
 }
 
-@media all and (min-width:$screen-sm){
+@media all and (min-width: $screen-sm) {
   .module__2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -50,29 +29,26 @@
     padding: 30px 15px 60px;
     height: 397px;
   }
-  .grid__item-1{
+  .grid__item-1 {
     grid-column: 1 / 4;
     padding-top: 30px;
   }
-  .btn__2{
+  .btn__2 {
     grid-column: 1 / 4;
   }
 }
 
-@media all and (min-width:$screen-lg){
+@media all and (min-width: $screen-lg) {
   .module__2 {
     column-gap: 5px;
     padding: 30px 100px 60px;
     height: 427px;
   }
-  .article{
+  .article {
     width: 350px;
     line-height: 1.5;
   }
   .article__title {
     font-size: 32px;
-  }
-  .grid__item-1{
-  
   }
 }

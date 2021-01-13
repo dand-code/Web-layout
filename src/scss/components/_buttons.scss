@@ -1,0 +1,20 @@
+
+
+//Section Module 2
+.btn__2 {
+    width: 184px;
+    height: 45px;
+    border-radius: 25.5px;
+    background-color: $color-btn;
+    color: $color-white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.25;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 25px auto;
+    &:hover{
+      background-color: $color-bg-2;
+    }
+  }
