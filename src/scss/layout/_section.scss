@@ -1,0 +1,24 @@
+.test{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: $color-btn;
+    color: $color-white;
+    &__link{
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+
+@media all and (min-width: $screen-sm){
+    .test{
+        padding-left:20px;
+        padding-right:20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $color-bg-2;
+    }
+}
