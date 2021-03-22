@@ -3,12 +3,11 @@ main {
 }
 
 .module {
-  background-color: white;
+  background-color: $color-white;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  justify-content: space-evenly;
-   padding: 30px 15px 45px;
+  justify-content: space-between;
+  padding: 30px 15px 45px;
   margin: 0 auto;
   &__theme {
     color: $color-theme;
@@ -35,7 +34,7 @@ main {
   }
   .module__text__width{
     display: inline-block;
-    width: 600px;
+    width: 500px;
   }
 }
 

@@ -1,10 +1,24 @@
 //Header - Menu
-.header__menu--btn {
-  left: 15px;
-  top: 15px;
-  position: absolute;
+.header__menu {
+  background-color: $color-header-nav;
+  height: 44px;
+  width: 44px;
+  &:hover{
+    background-color: $color-btn;
+  }
+  &--btn {
+    left: 13px;
+    top: 15px;
+    position: absolute;
+    transition: all 1s;
+  }
+  &:hover{
+    transform: scale(1.1);
+  }
 }
-// Common btn class (Module 1 and 2)
+
+
+//Common btn class (Module 1 and 2)
 .btn {
   border-radius: 25.5px;
   font-size: 20px;
@@ -25,7 +39,6 @@
   &:hover {
     border-color: $color-bg-2;
     color: $color-bg-2;
-    
   }
 }
 
@@ -46,8 +59,8 @@
   background-color: white;
   border-radius: 50px;
   height: 45px;
-  transition: all 1s;
   width: 45px;
+  transition: all 1s;
   &:hover{
     transform: scale(1.5);
   }
@@ -71,4 +84,16 @@
 }
 .icon__arrow--icon {
   padding: 12px;
+}
+
+@media all and (min-width: $screen-sm) {
+  .header__menu{
+    height: 70px;
+    width: 70px;
+    &--btn {
+      width: 30px;
+      left: 20px;
+      top: 20px;
+    }
+  }
 }
