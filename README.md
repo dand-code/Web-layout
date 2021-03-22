@@ -2,7 +2,7 @@
 
 # Final evaluation - module 1
 
-Hey 👋! I share with you my first module's final evaluation at Adalab. The challenge was **create a website with a specific design** and using some tool, like:
+Hey 👋! I share with you my first module's final evaluation at Adalab. The challenge was **create a website with a specific design** and using some tools, like:
 - Sass;
 - Flexbox and CSS Grid;
 - Media query;
