@@ -1,7 +1,7 @@
 .footer {
   background-color: $color-bg-2;
   display: flex;
-  height: 465px;
+  // height: 465px;
   flex-direction: column;
   justify-content: space-around;
   padding: 50px 15px 45px;
@@ -38,6 +38,8 @@
   }
 }
 
+
+
 @media all and(min-width:$screen-sm) {
   .footer {
     flex-direction: row;
@@ -53,18 +55,14 @@
   .order-3 {
     order: 3;
   }
-  .btn__arrow {
-    bottom: -800px;
-    left: 46vw;
-  }
 }
 
 @media all and(min-width:$screen-lg) {
   .footer {
     padding: 50px 370px 45px;
   }
-  .btn__arrow {
-    bottom: -820px;
-    left: 48vw;
-  }
+  // .btn__arrow {
+  //   bottom: -820px;
+  //   left: 48vw;
+  // }
 }

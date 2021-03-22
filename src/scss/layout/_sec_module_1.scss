@@ -1,7 +1,13 @@
+main {
+  background-color: $color-bg-1;
+}
+
 .module {
+  background-color: white;
   display: flex;
   flex-direction: column;
-  height: 376px;
+  width: 100vw;
+  // height: 376px;
   justify-content: space-evenly;
   padding: 30px 15px 45px;
   &__theme {
@@ -23,7 +29,6 @@
 @media all and (min-width: $screen-sm) {
   .module {
     padding: 30px 39px 60px;
-    width: 690px;
   }
   .module__title {
     font-size: 26px;
