@@ -7,9 +7,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  // height: 376px;
   justify-content: space-evenly;
-  padding: 30px 15px 45px;
+   padding: 30px 15px 45px;
+  margin: 0 auto;
   &__theme {
     color: $color-theme;
     font-family: 14px;
@@ -28,17 +28,20 @@ main {
 
 @media all and (min-width: $screen-sm) {
   .module {
-    padding: 30px 39px 60px;
+    padding: 30px 140px 60px;
   }
   .module__title {
     font-size: 26px;
+  }
+  .module__text__width{
+    display: inline-block;
+    width: 600px;
   }
 }
 
 @media all and (min-width: $screen-lg) {
   .module {
-    margin: 0 auto;
-    width: 730px;
+    padding: 30px 320px 60px;
   }
   .module__theme {
     font-size: 16px;
@@ -48,5 +51,8 @@ main {
   }
   .module__text {
     font-size: 20px;
+  }
+  .module__text__width{
+    width: 730px;
   }
 }
